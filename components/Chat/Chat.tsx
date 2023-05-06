@@ -387,7 +387,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             </div>
           </div>
           <div className="text-center">
-              Please contact me for work: <a href="mailto:andynguyen2410@outlook.com" target="_blank" rel="noreferrer" class="text-blue-500 hover:underline">andynguyen2410@outlook.com</a>.
+              Please contact me for work: <a href="mailto:andynguyen2410@outlook.com" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">andynguyen2410@outlook.com</a>.
           </div>
         </div>
       ) : modelError ? (

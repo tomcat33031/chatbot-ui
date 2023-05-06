@@ -1,14 +1,8 @@
-# Chatbot UI
-
-Chatbot UI is an open source chat UI for AI models.
-
-See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
-
-![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
+# ChatGPTiny
 
 ## Updates
 
-Chatbot UI will be updated over time.
+ChatGPTiny will be updated over time.
 
 Expect frequent improvements.
 
@@ -21,23 +15,23 @@ Expect frequent improvements.
 
 **Vercel**
 
-Host your own live version of Chatbot UI with Vercel.
+Host your own live version of ChatGPTiny with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftomcat33031%2Fchatbot-ui)
 
 **Docker**
 
 Build locally:
 
 ```shell
-docker build -t chatgpt-ui .
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
+docker build -t chatgptiny .
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgptiny
 ```
 
 Pull from ghcr:
 
 ```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-ui:main
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/tomcat33031/chatbot-ui:main
 ```
 
 ## Running Locally
@@ -45,7 +39,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-
 **1. Clone Repo**
 
 ```bash
-git clone https://github.com/mckaywrigley/chatbot-ui.git
+git clone https://github.com/tomcat33031/chatbot-ui.git
 ```
 
 **2. Install Dependencies**
@@ -97,9 +91,3 @@ When deploying the application, the following environment variables can be set:
 If you do not provide an OpenAI API key with `OPENAI_API_KEY`, users will have to provide their own key.
 
 If you don't have an OpenAI API key, you can get one [here](https://platform.openai.com/account/api-keys).
-
-## Contact
-
-If you have any questions, feel free to reach out to Mckay on [Twitter](https://twitter.com/mckaywrigley).
-
-[GCSE]: https://developers.google.com/custom-search/v1/overview

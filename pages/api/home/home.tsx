@@ -360,8 +360,9 @@ const Home = ({
       }}
     >
       <Head>
-        <title>ChatGPTiny</title>
+        <title>ChatGPTiny | AI Tools for Your Business</title>
         <meta name="description" content="ChatGPT but better." />
+        <meta name="description" content="Talk to ChatGPT for free"></meta>
         <meta
           name="viewport"
           content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no"
